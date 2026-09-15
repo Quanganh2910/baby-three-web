@@ -1,0 +1,40 @@
+body {
+  background-color: #000044;
+}
+.header {
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+.content {
+  padding: 10px;
+  margin: 15px;
+  background-color: #ff9900;
+  border-radius: 16px;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+
+  display: flex; /* xếp các phần tử con theo hàng ngang */
+  align-items: center; /* căn giữa theo chiều dọc */
+  gap: 20px; /* khoảng cách giữa chữ và ảnh */
+}
+
+.content p {
+  flex: 1; /* đoạn văn chiếm phần còn lại */
+  margin: 0;
+}
+
+.product-img {
+  width: 150px;
+  height: auto;
+  border-radius: 12px;
+  flex-shrink: 0; /* không cho ảnh bị co lại khi thiếu chỗ */
+}
+.footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
